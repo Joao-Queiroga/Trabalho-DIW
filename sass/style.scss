@@ -1,0 +1,54 @@
+#lancamentos {
+  /*iframe {
+    width: min(100vw - 2rem, 600px);
+    height: 20em;
+  }*/
+}
+
+p {
+  //max-width: 600px;
+  text-align: justify;
+}
+
+#destaques {
+  .filmes {
+    img {
+      width: min(50vw - 2rem, 300px);
+    }
+  }
+}
+
+#destaques {
+  h1 {
+    margin-left: 5.5rem;
+  }
+}
+
+#avaliacoes {
+  h1 {
+    margin-left: 5.5rem;
+  }
+}
+
+#entrevistas {
+  h1 {
+    margin-left: 5.5rem;
+  }
+}
+
+.entrevista {
+  iframe {
+    width: min(33.3vw - 2rem, 375px);
+    height: 15em;
+  }
+}
+
+.card {
+  max-width: 300px;
+}
+
+.novidade {
+  img {
+    max-width: 150px;
+  }
+}
