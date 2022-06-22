@@ -1,20 +1,5 @@
-#lancamentos {
-  /*iframe {
-    width: min(100vw - 2rem, 600px);
-    height: 20em;
-  }*/
-}
-
 p {
   text-align: justify;
-}
-
-#destaques .filmes img {
-  width: min(50vw - 2rem, 300px);
-}
-
-#destaques h1 {
-  margin-left: 5.5rem;
 }
 
 #avaliacoes h1 {
@@ -30,8 +15,12 @@ p {
   height: 15em;
 }
 
-.card {
-  max-width: 300px;
+.card-text {
+  max-height: 10rem;
+}
+
+.filmes {
+  max-height: 29rem;
 }
 
 .novidade img {

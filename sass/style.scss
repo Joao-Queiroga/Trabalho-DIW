@@ -1,27 +1,6 @@
-#lancamentos {
-  /*iframe {
-    width: min(100vw - 2rem, 600px);
-    height: 20em;
-  }*/
-}
-
 p {
   //max-width: 600px;
   text-align: justify;
-}
-
-#destaques {
-  .filmes {
-    img {
-      width: min(50vw - 2rem, 300px);
-    }
-  }
-}
-
-#destaques {
-  h1 {
-    margin-left: 5.5rem;
-  }
 }
 
 #avaliacoes {
@@ -43,8 +22,13 @@ p {
   }
 }
 
-.card {
-  max-width: 300px;
+.card-text{
+//  max-width: 300px;
+  max-height: 10rem;
+}
+
+.filmes {
+  max-height: 29rem;
 }
 
 .novidade {

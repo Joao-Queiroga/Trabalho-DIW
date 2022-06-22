@@ -5,3 +5,6 @@ async function Busca(url) {
     .then(response => response.json())
     .then(data => dados = data.results);
 }
+/*
+https://api.themoviedb.org/3/movie/latest?api_key=c927cf03dd7b7c113b3dea11b53f9ce1&language=pt-BR&page=1
+* */
