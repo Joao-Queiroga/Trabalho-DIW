@@ -4,6 +4,7 @@ console.log(id)
 
 async function mostraDetalhes() {
   const detalhes = await Busca(`https://api.themoviedb.org/3/movie/${id}`);
+  document.title = detalhes.title;
   console.log(detalhes);
   const poster = document.querySelector('#poster');
   poster.src = "https://image.tmdb.org/t/p/w500" + detalhes.poster_path;
